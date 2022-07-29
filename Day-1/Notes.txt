@@ -1,0 +1,17 @@
+https://www.youtube.com/
+URL stands for Uniform resource locator.
+
+HTTP = Hypertext transfer protocol
+
+HTTPs = Hypertext transfer protocol + encryption
+
+client = browser
+server = computer
+
+client ----------> server
+server ----------> client
+
+Document type HTML
+
+Document object model (DOM)
+

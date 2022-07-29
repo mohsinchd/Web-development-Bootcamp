@@ -1,0 +1,87 @@
+/* div {
+  background-color: dodgerblue;
+  color: orange;
+} */
+
+/* #firstdiv {
+  background-color: dodgerblue;
+  color: orange;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.div {
+  background-color: dodgerblue;
+  color: black;
+}
+
+header h1 {
+  font-size: 50px;
+  color: grey;
+  text-align: center;
+  /* Named color */
+  /* hexadecimal color #gfdgdf */
+  /* RGB = RED GREEN Blue */
+  /* RGBa = red green blue alpha */
+}
+
+.para-wrapper {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: #fff;
+  padding: 55px 76px 73px 62px;
+  text-align: center;
+  /* trbl */
+  /* margin: 10px 10px 10px 10px; */
+
+  margin: 10px;
+
+  border: 2px solid #333;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-black {
+  background-color: #333;
+}
+
+.btn-blue {
+  background-color: dodgerblue;
+}
+
+/* .btn-blue:hover {
+  background-color: #fff;
+  color: #333;
+} */
+
+/* .para-wrapper p {
+  font-size: 25px;
+  font-weight: bold;
+  /* color: #2cb3e8; */
+/* color: rgba(124, 96, 209, 0.5); 
+} */
+
+/* Display Properties */
+
+.paragraph {
+  border: 2px solid black;
+  display: inline-block;
+  width: 550px;
+}
