@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Example for css normalization */
+/* .box {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  padding: 50px;
+} */
+
+/* Relation Selectors */
+
+/* #product p {
+  color: orange;
+} */
+
+/* Direct child */
+
+/* #product > p {
+  color: orange;
+} */
+
+/* Direct Sibling selector */
+
+/* #product + p {
+  color: orange;
+} */
+
+/* #product ~ p {
+  color: orange;
+} */
+
+/* Pseudo class selectors */
+
+/* article .first {
+  color: orange;
+} */
+
+/* article :first-child {
+  color: orange;
+} */
+
+/* article p:first-of-type {
+  color: orange;
+} */
+
+/* last child / last of type */
+
+/* ul li:nth-child(2n + 1) {
+  color: orange;
+} */
+
+/* Pseudo Element Selectors */
+
+/* .l {
+  font-weight: bold;
+  font-size: 50px;
+} */
+
+/* p::first-letter {
+  font-weight: bold;
+  font-size: 50px;
+} */
+
+/* p::first-line {
+  font-weight: bold;
+  font-size: 50px;
+} */
+
+/* ::selection {
+  background-color: orange;
+} */
+
+/* p::before {
+  content: "Hello there this text is inserting before the element text";
+  display: block;
+  background-color: tomato;
+}
+
+p::after {
+  content: "Hello there this text is inserting after the element text";
+  display: block;
+  background-color: tomato;
+} */
+
+/* Selector Specificity */
+
+/* #section .para {
+  background-color: yellow;
+}
+
+.para {
+  background-color: tomato !important;
+} */
+
+/* ID */
+/* class */
+/* element */
+
+/* Inheritance */
+
+/* #section {
+  color: aqua;
+  border: 2px solid black;
+}
+
+#section p {
+  border: inherit;
+} */
+
+/* Shadow */
+
+/* .box {
+  width: 400px;
+  margin: 20px;
+  height: 400px;
+  background-color: rgb(30, 0, 255);
+
+  box-shadow: 0px 0px 30px black;
+}
+
+.box h1 {
+  color: #fff;
+  text-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+} */
+
+/* .box {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border: 2px solid #333;
+  overflow: auto;
+} */
+
+/* Positions */
+
+.container {
+  border: 2px solid lightgray;
+  position: relative;
+}
+
+/* .box-1 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: -1;
+  background-color: dodgerblue;
+}
+
+.box-2 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+.box-3 {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+} */
+
+/* Units */
+
+/* Absolute Units */
+/* px cm in mm */
+
+/* Fixed value */
+
+/* Relative Units */
+/* % = Relative to container */
+/* vh , vw = Relative to view port */
+/* em , rem = Relative to font size */
+
+/* body {
+  height: 100vh;
+}
+
+.box {
+  font-size: 20px;
+  width: 10rem;
+  background-color: dodgerblue;
+  height: 50%;
+  /* 10rem = 16 x 10 = 160px */
+/* 50em =  20 x 50  */
+/* } */
