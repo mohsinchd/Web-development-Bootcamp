@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 200vh;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-primary {
+  color: dodgerblue;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  color: #fff;
+  height: 75px;
+  border-bottom: 3px solid dodgerblue;
+}
+
+.items {
+  display: flex;
+  list-style: none;
+}
+
+ul li a {
+  padding: 26px 30px;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+/* Showcase */
+
+#showcase {
+  background: url("./img/pexels-kaique-rocha-125510.jpg") no-repeat center
+    center/cover;
+
+  background-attachment: fixed;
+  height: 80vh;
+  color: #fff;
+}
+
+.showcase-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-heading {
+  font-size: 3.3rem;
+}
+
+.main-para {
+  font-size: 1.3rem;
+}
+
+#showcase a {
+  margin-top: 25px;
+}
+
+.btn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: dodgerblue;
+}

@@ -1,0 +1,44 @@
+.container {
+  border: 2px solid lightgray;
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+/* 2 Axis */
+
+/* 1:- Main Axis  */
+/* If Flex Direction is Row:- Main axis X-axis */
+/* If flex Direction is Column:- Main Axis Y-axis */
+/* Justify content is only applicable on main-axis */
+/* 2:- Cross Axis */
+/* If Flex Direction is Row:- Cross axis Y-axis */
+/* If flex direction is Column:- Cross axis X-axis */
+/* Align items is only applicable on cross-axis */
+
+.item-1 {
+  flex: 1;
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+  border: 2px solid black;
+}
+
+.item-2 {
+  flex: 2;
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+  border: 2px solid black;
+}
+
+.item-3 {
+  flex: 1;
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+  border: 2px solid black;
+}
