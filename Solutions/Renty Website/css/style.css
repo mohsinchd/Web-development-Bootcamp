@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Utilities */
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.rounded {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.my-1 {
+  padding: 1.5rem 0;
+}
+.my-2 {
+  padding: 2rem 0;
+}
+.my-3 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+
+.m-1 {
+  padding: 1.5rem;
+}
+.m-3 {
+  padding: 3rem;
+}
+.m-2 {
+  padding: 2rem;
+}
+
+.fa-mine {
+  font-size: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.text-light-grey {
+  color: #f8f8f8;
+}
+
+.text-dark-grey {
+  color: #888;
+}
+
+.text-dark {
+  color: #1a1e23;
+}
+
+.text-primary {
+  color: #5f51fc;
+}
+
+.text-warning {
+  color: #ffb600;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.bg-dark {
+  background-color: #1a1e23;
+}
+
+.container {
+  width: 85%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-dark {
+  background-color: #1a1e23;
+}
+
+.btn-primary {
+  background-color: #5f51fc;
+}
+
+.main-heading {
+  font-size: 3.3rem;
+}
+
+.cross-heading {
+  font-size: 2.3rem;
+}
+
+.dark-overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.blue-overlay {
+  height: 100%;
+  background-color: #5f51fc;
+  opacity: 0.9;
+}
+
+.icon {
+  font-size: 4rem;
+}
+
+/* top navigation */
+
+.top-nav {
+  padding: 10px;
+}
+
+.top-nav a {
+  font-weight: bold;
+}
+
+/* Main navigation */
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.list-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.list-nav ul li a {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+/* showcase */
+
+.showcase-text {
+  padding: 50px;
+}
+
+.showcase-text p {
+  margin: 25px 0;
+}
+
+.showcase-content {
+  display: flex;
+}
+
+.showcase-image {
+  background: url("/imgs/Showcase\ 1.png") no-repeat center center/cover;
+  width: 100%;
+}
+
+/* LOGOS section */
+
+.items-logos {
+  display: flex;
+}
+
+.items-logos div {
+  flex: 1;
+}
+
+.items-logos div img {
+  width: 50%;
+}
+
+/* About Section */
+
+.about-content {
+  display: flex;
+}
+
+.about-text {
+  padding: 10px 50px;
+}
+
+.about-text p {
+  margin: 25px 0;
+}
+
+.about-image {
+  background: url("/imgs/showcase\ 2.jpg") no-repeat center center/cover;
+  width: 100%;
+}
+
+/* Services Section */
+
+#services {
+  background: url("/imgs/blackbackground.jpg");
+  background-attachment: fixed;
+  height: 50vh;
+  margin-bottom: -85px;
+}
+
+/* Boxes */
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: #ffffff;
+  width: 375px;
+  border-top: 10px solid #5f51fc;
+  box-shadow: 0 15px 15px #dbdbdb;
+}
+
+.shadow-box {
+  height: 50vh;
+}
+
+/* Collection */
+
+.title-collection {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.title-collection li {
+  width: 100%;
+  border-bottom: 1px solid #888;
+}
+
+.title-collection li:hover {
+  cursor: pointer;
+}
+
+.title-collection .active {
+  color: #1a1e23;
+  font-weight: bold;
+  border-bottom: 2px solid #1a1e23;
+}
+
+.fa-circle {
+  font-size: 8px;
+  margin-right: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.card {
+  width: 33.33%;
+  box-shadow: 0 15px 15px #dbdbdb;
+  border-radius: 5px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  height: 206.087px;
+}
+
+/* Subscribe */
+
+#subscribe {
+  background: url("/imgs/buildings.jpg");
+  background-attachment: fixed;
+  margin: 0 20px;
+}
+
+/* Footer */
+
+#footer {
+  margin-top: -35px;
+}
