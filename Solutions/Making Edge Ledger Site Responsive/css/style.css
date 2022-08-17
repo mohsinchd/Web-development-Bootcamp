@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+.m-heading {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-primary {
+  color: #93cb52;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+.lead {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+.btn {
+  color: #fff;
+  padding: 10px 20px;
+  background: #93cb52;
+  display: inline-block;
+
+  border-radius: 5px;
+  border: none;
+}
+.btn:hover {
+  background: #7ab436;
+}
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.p-1 {
+  padding: 1.5rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+
+/* Navbar styling */
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  z-index: 1;
+  padding: 1rem;
+  border-bottom: #93cb52 3px solid;
+}
+
+#navbar ul {
+  display: flex;
+
+  align-items: center;
+  list-style: none;
+}
+#navbar ul li a {
+  color: #fff;
+  padding: 1rem;
+  margin: 0 0;
+}
+#navbar ul li a:hover {
+  border-radius: 5px;
+  background: #93cb52;
+}
+
+/* Showcase area */
+
+#showcase {
+  background: #333 url("/img/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+
+  height: 100%;
+}
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+/* Section: What we do */
+.items {
+  display: flex;
+  padding: 1rem;
+}
+.item {
+  flex: 1;
+  /* margin-top: 20px; */
+  text-align: center;
+  padding: 1rem;
+}
+.item i {
+  background: #93cb52;
+  padding: 0.75rem 0.75rem;
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
+}
+
+/* Section: Who we are */
+#who {
+  display: flex;
+  color: #fff;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .list {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+#who .list li {
+  padding: 0.5rem 0;
+  border-bottom: 2px dotted #444;
+}
+
+#who .who-img {
+  background: url("/img/people.jpg") no-repeat center center/cover;
+}
+
+#who .who-text h2 {
+  text-align: start;
+}
+
+/* Section: Clients */
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#clients .items {
+  padding: 2rem 0;
+}
+
+/* Section: Contact us */
+#contact {
+  display: flex;
+}
+
+#contact div {
+  flex: 1;
+}
+
+#contact .contact-form {
+  background: #93cb52;
+  color: #fff;
+}
+
+.contact-form h2 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.inputs input {
+  padding: 0.3rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  width: 100%;
+}
+.contact-form a {
+  margin-top: 10px;
+  background: #333;
+  width: 100%;
+  text-align: center;
+  padding: 5px 5px;
+}
+.contact-form a:hover {
+  border: 1px solid #333;
+  background: #fff;
+  color: #333;
+}
+
+#contact .contact-img {
+  background: url("https://source.unsplash.com/random") no-repeat center
+    center/cover;
+}
+
+#footer {
+  padding: 15px 15px;
+  text-align: center;
+}

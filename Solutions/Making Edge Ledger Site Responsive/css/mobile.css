@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+  #what .items {
+    flex-direction: column;
+  }
+
+  .who-img {
+    display: none;
+  }
+
+  .contact-img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navbar ul {
+    margin-top: 10px;
+  }
+
+  .l-heading {
+    font-size: 2.5rem;
+  }
+
+  .lead {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    padding: 5px 10px;
+  }
+}
