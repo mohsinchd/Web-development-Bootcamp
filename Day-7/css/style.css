@@ -1,0 +1,63 @@
+:root {
+  --dark-overlay: #3292a6;
+}
+
+.navbar {
+  opacity: 0.9;
+}
+
+.mine-logo {
+  width: 50px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+#home {
+  background: url("/img/mountains.jpg") no-repeat center center/cover;
+  height: 70vh;
+  margin-top: 108px;
+}
+
+.dark-overlay {
+  height: 100%;
+  background-color: var(--dark-overlay);
+  opacity: 0.9;
+}
+
+.book-poster {
+  height: 540px;
+}
+
+.btn-mine {
+  background-color: var(--dark-overlay);
+}
+
+.text-mine {
+  color: var(--dark-overlay);
+}
+
+.border-mine {
+  border-color: var(--dark-overlay);
+}
+
+.bg-mine {
+  background-color: var(--dark-overlay);
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 110px;
+}
+
+.img-mine {
+  display: flex;
+  justify-content: center;
+  margin-top: -70px;
+}
+
+.hover:hover {
+  background-color: var(--dark-overlay);
+  color: #fff;
+}
