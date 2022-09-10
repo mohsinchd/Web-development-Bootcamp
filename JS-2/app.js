@@ -37,60 +37,59 @@
 // let number = Math.round(Math.random() * 20);
 // console.log(number);
 
-// let firstName = "Mohsin";
-// let lastName = "Shoaib";
+let firstName = "Mohsin";
+let lastName = "Shoaib";
 // let age = 22;
-// let gender = "male";
+let gender = "male";
 
-// console.log(
-//   "Hi, there is the message from javascript to " +
-//     firstName +
-//     " " +
-//     lastName +
-//     " whose age is " +
-//     age +
-//     " whose gender is " +
-//     gender
-// );
+console.log(
+  "Hi, there is the message from javascript to " +
+    firstName +
+    " " +
+    lastName +
+    " whose age is " +
+    age +
+    " whose gender is " +
+    gender
+);
 
 // // Es 6
-// console.log(
-//   `Hi, there is the message from javascript to ${firstName} ${lastName} whose age is ${age} whose gender is ${gender}`
-// );
+console.log(
+  `Hi, there is the message from javascript to ${firstName} ${lastName} whose age is ${age} whose gender is ${gender}`
+);
 
 // let age = 23;
+let age = 26;
 
-// if (age === 22) {
-//   console.log("Hello");
-// } else {
-//   console.log("World");
-// }
+if (age === 22) {
+  console.log("Hello");
+} else {
+  console.log("World");
+}
 
-// let age = 26;
+if (age === 23) {
+  console.log("23");
+} else if (age === 24) {
+  console.log("24");
+} else if (age === 25) {
+  console.log("25");
+} else {
+  console.log("Noting");
+}
 
-// if (age === 23) {
-//   console.log("23");
-// } else if (age === 24) {
-//   console.log("24");
-// } else if (age === 25) {
-//   console.log("25");
-// } ese {
-//   colnsole.log("Noting");
-// }
-
-// switch (age) {
-//   case 24:
-//     console.log("24");
-//     break;
-//   case 25:
-//     console.log("25");
-//     break;
-//   case 26:
-//     console.log("26");
-//     break;
-//   default:
-//     console.log("Noting");
-// }
+switch (age) {
+  case 24:
+    console.log("24");
+    break;
+  case 25:
+    console.log("25");
+    break;
+  case 26:
+    console.log("26");
+    break;
+  default:
+    console.log("Noting");
+}
 
 // Unary Operators
 // ++ Increment
@@ -98,11 +97,11 @@
 
 // Post Increment Post Decrement
 // Pre Increment Pre Decrement
-// let number = 15;
-// console.log(number++);
-// console.log(number);
+let number = 15;
+console.log(number++);
+console.log(number);
 
-// console.log(++number);
+console.log(++number);
 
 // LOOPS
 // 1 Initialization
@@ -112,9 +111,9 @@
 
 // For , while , do-while
 
-// for (let i = 1; i <= 20; i++) {
-//   console.log(i);
-// }
+for (let i = 1; i <= 20; i++) {
+  console.log(i);
+}
 
 // i = 1 ; 1 <= 20 -- T
 // 1
@@ -125,10 +124,10 @@
 
 // Print 1 to n even numbers
 
-// let n = 50;
+let n = 50;
 
-// for (let i = 0; i <= n; i++) {
-//   if (i % 2 === 0) {
-//     console.log(i);
-//   }
-// }
+for (let i = 0; i <= n; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}

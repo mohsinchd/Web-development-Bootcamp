@@ -1,0 +1,9 @@
+.size {
+  font-size: 3rem;
+  color: red;
+  transform: translateX(250) rotate(50deg);
+}
+
+.trans {
+  transition: all 0.5s ease;
+}
